@@ -102,7 +102,43 @@ GitµÄ°æ±¾¿âÀï´æÁËºÜ¶à¶«Î÷£¬ÆäÖÐ×îÖØÒªµÄ¾ÍÊÇ³ÆÎªstage£¨»òÕß½Ðindex£©µÄÔÝ´æÇø£¬»¹Ó
 GitÖ§³Ö¶àÖÖÐ­Òé£¬°üÀ¨https£¬µ«Í¨¹ýsshÖ§³ÖµÄÔ­ÉúgitÐ­ÒéËÙ¶È×î¿ì¡£
 
 12¡¢´´½¨ÓëºÏ²¢·ÖÖ§
+Git¹ÄÀø´óÁ¿Ê¹ÓÃ·ÖÖ§£º
 
+²é¿´·ÖÖ§£ºgit branch
+
+´´½¨·ÖÖ§£ºgit branch name
+
+ÇÐ»»·ÖÖ§£ºgit checkout name
+
+´´½¨+ÇÐ»»·ÖÖ§£ºgit checkout -b name
+
+ºÏ²¢Ä³·ÖÖ§µ½µ±Ç°·ÖÖ§£ºgit merge name
+
+É¾³ý·ÖÖ§£ºgit branch -d name
+
+13¡¢½â¾ö³åÍ»
+
+µ±GitÎÞ·¨×Ô¶¯ºÏ²¢·ÖÖ§Ê±£¬¾Í±ØÐëÊ×ÏÈ½â¾ö³åÍ»¡£½â¾ö³åÍ»ºó£¬ÔÙÌá½»£¬ºÏ²¢Íê³É¡£
+
+ÓÃgit log --graphÃüÁî¿ÉÒÔ¿´µ½·ÖÖ§ºÏ²¢Í¼¡£
+
+
+14¡¢·ÖÖ§¹ÜÀí²ßÂÔ
+
+Git·ÖÖ§Ê®·ÖÇ¿´ó£¬ÔÚÍÅ¶Ó¿ª·¢ÖÐÓ¦¸Ã³ä·ÖÓ¦ÓÃ¡£
+
+ºÏ²¢·ÖÖ§Ê±£¬¼ÓÉÏ--no-ff²ÎÊý¾Í¿ÉÒÔÓÃÆÕÍ¨Ä£Ê½ºÏ²¢£¬ºÏ²¢ºóµÄÀúÊ·ÓÐ·ÖÖ§£¬ÄÜ¿´³öÀ´Ôø¾­×ö¹ýºÏ²¢£¬¶øfast forwardºÏ²¢¾Í¿´²»³öÀ´Ôø¾­×ö¹ýºÏ²¢¡£
+
+
+git merge --no-ff -m "merge with no-ff" dev
+
+
+15¡¢Bug·ÖÖ§
+
+
+ÐÞ¸´bugÊ±£¬ÎÒÃÇ»áÍ¨¹ý´´½¨ÐÂµÄbug·ÖÖ§½øÐÐÐÞ¸´£¬È»ºóºÏ²¢£¬×îºóÉ¾³ý£»
+
+µ±ÊÖÍ·¹¤×÷Ã»ÓÐÍê³ÉÊ±£¬ÏÈ°Ñ¹¤×÷ÏÖ³¡git stashÒ»ÏÂ£¬È»ºóÈ¥ÐÞ¸´bug£¬ÐÞ¸´ºó£¬ÔÙgit stash pop£¬»Øµ½¹¤×÷ÏÖ³¡¡£
 
 
 
